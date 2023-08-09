@@ -14,7 +14,7 @@
     "echarts": "^4.8.0",
     "echarts-for-react": "^2.0.16",
     "leaflet": "^1.9.4",
-    "papaparse": "^5.2.0",
+    "papaparse": "^5.4.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"

@@ -8,6 +8,7 @@ import ControlPanel from "./ControlPanel";
 import Overview from "./Overview";
 import DetailView from "./DetailView";
 import HeatMap from "./HeatMap";
+import Papa from "papaparse";
 
 // 这是JSS的写法，相当于声明了一些css的类
 const useStyles = makeStyles(theme => ({
@@ -51,10 +52,23 @@ const useStyles = makeStyles(theme => ({
     },
 }))
 
+
 const arry=[
     [120.1234555,35.234234,56],
     [120.3287898,34.876575,10],
     ];
+
+const csvFile = 'public/data.csv';
+
+Papa.parse(csvFile, {
+    header: true,
+    complete: function(results) {
+    console.log(results.data); // 解析后的数据
+    },
+    error: function(error) {
+    console.error('Error:', error.message);
+    }
+});
 
 // App组件
 function App() {

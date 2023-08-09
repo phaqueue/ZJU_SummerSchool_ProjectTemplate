@@ -7849,10 +7849,10 @@ pako@~1.0.5:
   resolved "https://registry.npm.taobao.org/pako/download/pako-1.0.11.tgz?cache=0&sync_timestamp=1580284264887&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpako%2Fdownload%2Fpako-1.0.11.tgz"
   integrity sha1-bJWZ00DVTf05RjgCUqNXBaa5kr8=
 
-papaparse@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.npm.taobao.org/papaparse/download/papaparse-5.2.0.tgz"
-  integrity sha1-l5dqGxNcRmEncwKRU9xkmVyqO3s=
+papaparse@^5.4.1:
+  version "5.4.1"
+  resolved "https://registry.npmjs.org/papaparse/-/papaparse-5.4.1.tgz"
+  integrity sha512-HipMsgJkZu8br23pW15uvo6sib6wne/4woLZPlFf3rpDyMe9ywEXUsuD7+6K9PRkJlVT51j/sCOYDKGGS3ZJrw==
 
 parallel-transform@^1.1.0:
   version "1.2.0"
