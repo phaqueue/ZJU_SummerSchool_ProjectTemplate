@@ -7,6 +7,7 @@ import AssistView from "./AssistView";
 import ControlPanel from "./ControlPanel";
 import Overview from "./Overview";
 import DetailView from "./DetailView";
+import HeatMap from "./HeatMap";
 
 // 这是JSS的写法，相当于声明了一些css的类
 const useStyles = makeStyles(theme => ({
@@ -50,6 +51,11 @@ const useStyles = makeStyles(theme => ({
     },
 }))
 
+const arry=[
+    [120.1234555,35.234234,56],
+    [120.3287898,34.876575,10],
+    ];
+
 // App组件
 function App() {
     // 使用上述的css样式
@@ -63,6 +69,7 @@ function App() {
         <div className={clsx(classes.view, classes.assistView)}><AssistView/></div>
         <div className={clsx(classes.view, classes.overview)}><Overview/></div>
         <div className={clsx(classes.view, classes.detailView)}><DetailView/></div>
+        <div className={clsx(classes.view, classes.HeatMap)}><HeatMap data={arry}/></div>
     </div>;
 }
 
