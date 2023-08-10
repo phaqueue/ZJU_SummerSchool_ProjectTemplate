@@ -77,7 +77,7 @@ function App() {
 
     // 使用classes.root使用样式中定义的root类
     // 可视化项目中，若干视图一般采用绝对布局，方便后续调整各个视图的位置与大小
-    // 目前四个视图都是一样的，查看AssistView的注释
+    // 目前四个视图都是一样的，查看AssistView的注释   
     return <div className={classes.root}>
         <div className={clsx(classes.view, classes.controlPanel)}><ControlPanel/></div>
         <div className={clsx(classes.view, classes.assistView)}><AssistView/></div>
@@ -88,3 +88,4 @@ function App() {
 }
 
 export default App;
+ 
